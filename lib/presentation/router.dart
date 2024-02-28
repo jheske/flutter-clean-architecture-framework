@@ -8,7 +8,9 @@ final appRouter = GoRouter(
     // Route for the home screen.
     GoRoute(
       path: '/',
-      builder: (context, state) => HomeScreen(),
+      builder: (context, state) => const HomeScreen(
+        title: 'Clean Architecture',
+      ),
     ),
   ],
 );

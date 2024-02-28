@@ -8,7 +8,7 @@
 PRODUCT_NAME = clean_architecture_drift_getit_bloc
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.heske.musicsample.cleanArchitectureDriftGetitBloc
+PRODUCT_BUNDLE_IDENTIFIER = com.heske.example.cleanArchitectureDriftGetitBloc
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2024 com.heske.music_sample. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2024 com.heske.example. All rights reserved.

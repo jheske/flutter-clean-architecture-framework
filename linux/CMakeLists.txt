@@ -7,7 +7,7 @@ project(runner LANGUAGES CXX)
 set(BINARY_NAME "clean_architecture_drift_getit_bloc")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
-set(APPLICATION_ID "com.heske.music_sample.clean_architecture_drift_getit_bloc")
+set(APPLICATION_ID "com.heske.example.clean_architecture_drift_getit_bloc")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
