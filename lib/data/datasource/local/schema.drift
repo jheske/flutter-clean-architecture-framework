@@ -1,0 +1,13 @@
+CREATE TABLE user (
+    id INT NOT NULL PRIMARY KEY,
+    username TEXT NOT NULL,
+    music_style TEXT NOT NULL,
+    favorite_song_name TEXT NOT NULL
+) As UserTable;
+
+_getUsers:
+    SELECT * FROM [user];
+_getUsersById:
+    SELECT * FROM [user]
+    WHERE id = :id
+    LIMIT 1;
